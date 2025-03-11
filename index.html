@@ -12,31 +12,34 @@
     <header>
         <h1>Bienvenidos</h1>
         <p>Hablemos un poco sobre mi</p>
+        <section class="nav">
+            <nav>
+                <ul>
+    
+                    <a href="#sobre-mi"><li>Sobre mi</li></a>
+                    <a href="#hobbies"><li>hobbies</li></a>
+                    <a href="#horario"><li>horario</li></a>
+                    <a href="#redes"><li>Redes</li></a>
+                    <a href="#contacto"><li>contacto</li></a>
+                    
+                </ul>
+            </nav>
+        </section>
+        <section class="imagen">
+            <img src="img/foto-caricatura.png" alt="profile">
+        </section>
     </header>
 
-    <section class="navegar">
-        <nav>
-            <ul>
-
-                <a href="#sobre-mi"><li>Sobre mi</li></a>
-                <a href="#hobbies"><li>hobbies</li></a>
-                <a href="#horario"><li>horario</li></a>
-                <a href="#redes"><li>Redes</li></a>
-                <a href="#contacto"><li>contacto</li></a>
-                
-            </ul>
-        </nav>
-    </section>
+    
 
     <main>
 
-        <section id="sobre-mi">
+        <section class="sobre-mi" id="sobre-mi">
             <h2>Sobre mi</h2>
-            <img src="img/foto-caricatura.png" alt="perfil">
-            <p>Hola, me nombre es Joseph S. Mora Racedo, soy estudiante de desarrollo web</p>
+            <p>Hola, mi nombre es Joseph S. Mora Racedo, soy estudiante de desarrollo web</p>
         </section>
     
-        <section id="hobbies">
+        <section class="hobbies" id="hobbies">
             <h2>Mis hobbies son:</h2>
             <ul>
                 <li>Programar</li>
@@ -46,7 +49,10 @@
             </ul>
         </section>
 
-        <section id="horario">
+        
+
+        <section class="horario" id="horario">
+            <h2>Mi horario</h2>
             <table>
                 <thead>
                     <tr>
@@ -89,16 +95,30 @@
 
     </main>
 
-    <section id="redes">
+    <section class="redes" id="redes">
         <nav>
             <ul>
-                <a href="https://www.facebook.com/profile.php?id=100009423444615" ><li>Facebock</li></a>
-                <a href="https://github.com/joseph-mora"><li>github</li></a>
+                <a href="https://www.facebook.com/profile.php?id=100009423444615" >
+                    <li>
+                        <figure>
+                            <img src="img/facebook.jpeg" alt="logo-facebook">
+                            <figcaption>facebook</figcaption>
+                        </figure>
+                    </li>
+                </a>
+                <a href="https://github.com/joseph-mora">
+                    <li>
+                        <figure>
+                            <img src="img/github.webp" alt="logo-github">
+                            <figcaption>github</figcaption>
+                        </figure>
+                    </li>
+                </a>
             </ul>
         </nav>
     </section>
 
-    <section id="contacto">
+    <section class="contacto" id="contacto">
         <form id="form">
             <label for="nombre">Nombre: </label>
             <input type="text" id="nombre" required>

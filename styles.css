@@ -1,0 +1,145 @@
+body{
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-color: #063516;
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px 80px 20px 80px;
+    text-align: center;
+}
+
+.nav{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav nav ul li{
+    color: aliceblue;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.imagen{
+    position: absolute;
+    top: 50px;
+    left: 10px; 
+}
+
+.imagen img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+main{
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #d45baa;
+    padding: 20px;
+    margin: 0px 80px 0px 80px;
+}
+
+.sobre-mi h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+.sobre-mi p{
+    padding: 0 0 20px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.hobbies h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+.hobbies ul{
+    list-style: none;
+    text-align: center;
+    background-color:blue;
+    padding: 0;
+}
+
+.hobbies ul li{
+    display: inline;
+    margin: 10px;
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.horario h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+.horario table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.horario table th, td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.horario table th{
+    background-color: #3498db;
+    color: white;
+}
+
+.horario table td{
+    background-color: aliceblue;
+}
+
+.redes{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.redes nav ul{
+    display: flex;
+    list-style: none;
+    background-color:#063516;
+    padding: 20px;
+    margin: 20px 80px 20px 80px;
+}
+
+.redes ul li{
+    margin-right: 500px;
+    text-align: center;
+    color:aliceblue;
+}
+
+.redes img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
